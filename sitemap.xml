@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<urlset
+		xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+			http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+	<!-- This is the sitemap for the free demo version. This is NOT a list of all pages that the paid version includes. The paid version has a larger sitemap. -->
+		
+		<url>
+			<loc>https://www2.lisbonlab.com</loc>
+		</url>
+		<url>
+			<loc>https://www2.lisbonlab.com/sobre/</loc>
+		</url>
+		<url>
+			<loc>https://www2.lisbonlab.com/estudos/</loc>
+		</url>
+		<url>
+			<loc>https://www2.lisbonlab.com/arquivo/</loc>
+		</url>
+		<url>
+			<loc>https://www2.lisbonlab.com/contactos/</loc>
+		</url>
+		<url>
+			<loc>https://www2.lisbonlab.com/p-585-akst_action-share-this/</loc>
+		</url>
+		<url>
+			<loc>https://www2.lisbonlab.com/estudos/blogues-experiencia-portuguesa/</loc>
+		</url>
+		<url>
+			<loc>https://www2.lisbonlab.com/estudos/o-papel-dos-blogues-na-comunicacao-organizacional/</loc>
+		</url>
+	</urlset>

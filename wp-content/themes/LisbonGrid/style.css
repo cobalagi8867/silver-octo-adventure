@@ -1,0 +1,445 @@
+/*   
+Theme Name: LisbonGrid
+Theme URI: http://blog.lisbonlab.com
+Description: Theme created by <a href="http://blog.lisbonlab.com" alt=// Lisbon Lab">HugoNS</a>, using xhtml and css.
+Author: HugoNS
+Author URI: http://www.lisbonlab.com
+Version: 1.0
+*/
+
+body {
+	background: #DDD url(images/bg.gif) repeat;
+	color: #333;
+	font: 75% 'Lucida Grande', Arial, Sans-Serif;
+	line-height: 1.4em;
+}
+
+#page {
+	margin:0 0 0 15px;
+	padding:15px;
+	width:930px;
+	height:auto;
+}
+
+	#header {
+		width:100%;
+		height:auto;
+	}
+	
+	#navigation{
+		width:100%;
+		height:35px;
+		margin: 10px 0 0 0;
+		border-top:2px solid #CCC;
+		border-bottom:2px solid #CCC;
+	}
+	
+	#primary{
+		width:660px;
+		padding-right:30px;
+		float:left;
+	}
+	#secondary{
+		width:240px;
+		float:right;
+	}
+	#footer{
+		width:100%;
+		text-align:center;
+	}
+	
+
+/****************** Header *******************/	
+	
+#breadcrum {
+	height:30px;
+	line-height:30px;
+	font-size:0.9em;
+}
+#header-inside{
+	height:150px;
+	width:100%;
+	padding:0 0 0 0;
+	background: url(images/header.jpg) no-repeat;
+}
+#header-inside p {
+	font-size:1em;
+	line-height:2em;
+	padding-top:2px;
+}
+#logo-container{
+	height:70px;
+	width:100%;
+	padding-top:15px;
+}
+.white {
+	background-color:#FFF;
+	padding:3px;
+}
+
+
+/****************** Navigation ***************/	
+	
+#nav-left {
+	width:645px;
+	padding:0 0 0 15px;
+	float:left;
+	line-height:35px;
+}
+
+#nav-right {
+	width:240px;
+	float:right;
+	line-height:35px;
+}
+
+#navigation ul {
+	list-style-type: none;
+	text-align: left;
+	font-weight:bold;
+}
+#navigation ul li { 
+	float: left;
+	padding:2px 30px 0 0;
+}
+
+#nav-right #s{
+	background-color:#EAEAEA;
+	border:none;
+	height:18px;
+	width:188px;
+	border:1px solid #EAEAEA;
+}
+#nav-right #button{
+	background-color:#FFF;
+	border:none;
+	height:22px;
+	font-weight:bold;
+}
+
+
+/****************** Primary ***************/
+
+.entry, .commenttext, #commentforms, #main-archive, .entry-border{
+	width:510px;
+	float:right;
+}
+
+.entry-metadata, .commentmetadata, #commentlabels, .entry-citacao{
+	width:120px;
+	float:left;
+	border-right:1px solid #999;
+	text-align:right;
+	padding:0 15px 0 0;
+}
+.entry-socialdata, .navigation2{
+	border-left:1px solid #999;
+	padding:0 15px 0 15px;
+	margin:0 0 60px 135px;
+}
+.navigation3{
+	border-left:1px solid #999;
+	padding:0 15px 0 15px;
+	margin:30px 0 20px 135px;
+}
+
+#primary h2{
+	padding-left:150px;
+	margin:30px 0 30px 0;
+}
+#primary h2.pre-title{
+	padding-left:150px;
+	margin:30px 0 0 0;
+}
+#primary h3,  #primary h4{
+	margin:30px 0 15px 0;
+}
+#primary p, .entry ul li, .entry ol li {
+	line-height:1.8em;
+}
+.entry-metadata p, .entry-socialdata p, .commentmetadata p, .navigation2, .navigation3, .entry-citacao p{
+	font-size:0.9em;
+}
+.entry-citacao{
+margin: 300px 0 0 0;
+font-style:italic;
+}
+ul.related{
+	border-left:1px solid #999;
+	padding:0 15px 0 15px;
+	margin:0 0 60px 135px;
+}
+.entry-border{
+	border-left:1px solid #999;
+	padding:0 15px 0 15px;
+	margin:0 0 60px 0x;
+}
+ul.related li{
+	font-size:0.9em;
+	padding:0px;
+}
+#main-archive {
+	margin:0 0 30px 0;
+}
+
+#main-archive ul{
+	border-left:1px solid #999;
+	padding:0 15px 0 15px;
+}
+
+
+/****************** Secondary ***************/
+
+#main-secondary{
+		margin:0px;
+		padding:30px 15px 15px 15px;
+		line-height:1.6em;
+}
+
+#secondary ul#sidebar {
+		padding:15px;
+		margin:0 0 30px 0;
+}
+
+#main-secondary h3 {
+	margin:0 0 15px 0;
+}
+
+#secondary ul#sidebar h3 {
+	margin:30px 0 5px 0;
+}
+
+#secondary ul#sidebar li ul li{
+list-style-image: url(images/0099_sosimple.png);
+margin:0 0 0 15px;
+font-size:0.9em;
+padding:0px;
+}
+
+#secondary p{
+	font-size: 0.9em;
+}
+
+
+/****************** Various Tags and Classes ***************/
+
+.entry img {
+	padding: 5px;
+	max-width: 100%;
+	}
+
+	.center {
+		text-align: center;
+		}
+
+	.alignright {
+		float: right;
+		}
+
+	.alignleft {
+		float: left
+		}
+
+	img.center, img[align="right"] {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		}
+
+	img.alignright, img[align="right"] {
+		padding: 4px;
+		margin: 0 0 2px 7px;
+		display: inline;
+		}
+
+	img.alignleft, img[align="left"] {
+		padding: 4px;
+		margin: 0 7px 2px 0;
+		display: inline;
+		}
+
+	img.noborder {
+		border: none !important;
+		}
+
+	small {
+		font-size: .9em;
+		line-height: 1.5em;
+		}
+
+	small, strike {
+		color: #777;
+		}
+
+	code {
+		font: 1.1em 'Courier New', Courier, Fixed;
+		}
+
+	acronym, abbr, /*span.caps*/ {
+		font-size: 0.9em;
+		letter-spacing: .07em;
+		border-bottom: 1px dashed #FFF;
+		cursor: help;
+		}
+
+	hr {
+			display: none;
+			}
+
+	.entry blockquote {
+		font-family:Georgia, "Times New Roman", Times, serif;
+		font-style:italic;
+		color:#666;
+		border: none;
+		line-height: 1.8em;
+		margin: 20px 20px 20px 30px;
+		}
+
+#creative-commons{
+		margin:30px 0 0 0;
+}
+
+
+/****************** Lists ***************/
+
+.entry ul, .entry-border ul {
+	margin: 0 0 25px 20px;
+	list-style-type:disc;
+	list-style-position:inside;
+}
+.entry ul ul {
+	margin: 0 0 0 20px;
+	list-style-type:circle;
+	list-style-position:inside;
+}	
+.entry ul li, .entry ol li{
+margin: 0 0 10px 0;
+}	
+.entry ol, .entry-border ol {
+	margin: 0 0 25px 20px;
+	list-style-type:decimal;
+	list-style-position:inside;
+}
+.entry ol ol {
+	margin: 0 0 0 20px;
+	list-style-type:lower-roman;
+	list-style-position:inside;
+}
+
+
+
+
+/****************** Typography ***************/
+
+#page h2 {
+	font-size: 2.0em;
+	font-weight: normal;
+	letter-spacing: -1px;
+	line-height: 1.0em;
+}
+
+#page h3 {
+	font-size:1.6em;
+	font-weight: normal;
+	letter-spacing: -1px;
+	line-height: 1.0em;
+}
+
+#page h4 {
+	font-size:1.4em;
+	font-weight: normal;
+	letter-spacing: -1px;
+	line-height: 1.0em;
+}
+
+*html body #page h2 {
+	font-size: 2.6em;
+	font-weight: bold;
+}
+
+*html body #page h3 {
+	font-size:2.0em;
+	font-weight: bold;
+
+}
+
+*html body #page h4 {
+	font-size:1.6em;
+	font-weight: bold;
+
+}
+
+#page p  {
+	margin:0 0 15px 0;
+}
+
+#footer p{
+	font-size:0.9em;	
+}
+#comment{
+	font: 75% 'Lucida Grande', Arial, Sans-Serif;
+}
+
+/******************** Comments ***************************/
+
+#comments{
+margin: 0 0 50px 0;
+}
+
+#comments ol{
+	list-style: none;
+	margin:0 0 30px 0;
+}
+#comments ol li{
+margin:0 0 30px 0;
+}
+
+.commentmetadata a{
+font-size:0.9em;
+}
+
+#comments img {
+	padding: 5px;
+	max-width: 100%;
+	background:#EAEAEA;
+	margin:5px 0 0 0;
+}
+#commentform input, #commentform textarea {
+		background: #EAEAEA;
+		border: none;
+		font-size: 1em;
+		padding: 1px;
+		border:1px #EAEAEA solid;		
+		}
+		
+	#commentform input:focus, #commentform textarea:focus, #nav-right #s:focus {
+		background: white;
+		border:1px #EAEAEA solid;
+		}
+		
+	#commentform #submit {
+		background:#2583ad;
+		color: white;
+		}
+
+
+/******************** Links ***************************/
+
+a {
+color:#2583ad;
+}
+a:hover {
+color:#FFF;
+background-color:#2583ad;
+}
+
+
+/******************** Colours ***************************/
+
+#page {
+	background: #FFF;
+}
+
+#main-secondary, .entry img{
+		background:#EAEAEA;
+}
